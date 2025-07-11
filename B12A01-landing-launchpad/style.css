@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 .logo{
     font-size: 34px;
     color: #4E47FF;
@@ -41,13 +43,16 @@
 }
 .action-title{
     color: #252432;
+    margin-bottom: 23px;
 }
 .action-des{
     color: #252432;
     font-size: 24px;
+    margin-bottom: 23px;
 }
 .left-side{
     max-width: 517px;
+    
 }
 .right-side-img{
     max-width: 403px;
@@ -62,7 +67,11 @@
     margin-right: 159px;
     margin-top: 116px;
     
+    
 
+}
+.container{
+    background-color:#f5f8ff;
 }
 .common-color{
     color: #4E47FF;
@@ -87,8 +96,112 @@
 .productive-des{
     color: #252432;
 }
-.part{
-    font-size: ;
+span{
+    font-size: 80px;
+    font-weight: bold;
+}
+.des-col{
+    color: #8f909f;
+}
+.text{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.users{
+   display: flex;
+   
+  justify-content: space-around;
+  align-items: center;
+  margin: 137px 0px 137px 0px;
+
+   /* background-color: aqua; */
+  
+
+   
+}
+.card{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    gap: 20px;  
+    padding: 0; 
+    
+}
+
+
+
+.card1{
+    margin-right: 20px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.164);
+   padding: 20px 30px;
+   border-radius: 14px;
+  
+
+}
+.stars{
+   margin-bottom: 20px;
+}
+.card h5{
+    font-size: 20px;
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+.card1 p{
+    opacity: 0.8;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+   
+}
+.reviwe {
+  display: flex;
+  align-items: center      
+    gap:10px;                   
+                 
+  padding:5px;
+  
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;   /* Align name + date to the bottom */
+  height: 100%;
+}
+
+.pic{
+    border-radius: 9999px;
+    margin-right: 12px;
+     width: 40px;
+  height: 40px;
+
+}
+
+.name {
+  font-weight: 600;
+  /* margin: 0; */
+  /* line-height: 1.2; */
+  font-size: 16px;
+  color: #757575;
+}
+.date {
+  color: gray;
+  font-size: 12px;
+  /* margin: 0; */
+}
+
+
+
+
+
+
+.card-date{
+    color: #B3B3B3;
 }
 
 
@@ -97,10 +210,179 @@
 
 
 
+
+.login{
+    display: flex;
+    align-items: center; 
+    justify-content: center;    
+    gap: 100px;
+}
+
+
+
+
+.login-form{
+ 
+  
+}
 
 .login-des{
-    font-weight: bolder;
-    font-size: 97px;
+  
 }
 
+.login-des{
+    font-weight: bold;
+    font-size: 97px;
+    
+
+}
+/* .login-form{
+    width: 497px;
+     
+}
+label {
+    padding-bottom: 10px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.input{
+    height: 70px;
+    width: 497px;
+   
+    
+    
+} */
+
+
+.login{
+    /* max-width: 1140px;
+    height: 632px; */
+    padding-top: 76px;
+    padding-right: 150px;
+    padding-bottom: 24px;
+    padding-left: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f5f8ff;
+}
+.container-1{
+    height: 232px;
+    width: 528px;
+}
+.login h1{
+    font-size: 70px;
+    color:#252432;
+}
+.container-2{
+    height: 450px;
+    width: 450px;
+}
+.input{
+    height: 70px;
+    width: 440px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: #d6dded;
+}
+.text-area{
+    width: 440px;
+    height: 120px;
+    border-color: #d6dded;
+
+}
+.login button{
+     background-color:#4E47FF ;
+    color: white;
+    padding: 10px 36px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 445px;
+    font-weight: bold;
+}
+.login button:hover{
+    background-color:#4d47ffb6 ;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.form ::placeholder{
+    font-size: 15px;
+    padding: 20px;
+}
+.label{
+    color: #252432;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/*footer*/
+
+
+.footer{
+   max-width: 100%;
+   height: 350px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: -100px;
+   background-color: white;
+
+}
+.footer  h1{
+    font-size: 80px;
+    color: #4e47ff;
+}
+.footer p{
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.direction ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 35px;
+
+}
+.direction ul a{
+    text-decoration: none;
+    color: #4d47ff8c;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+.direction ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 30px;
+}
+.direction ul a:hover{
+    color: #4e47ff;
+    cursor: pointer;
+}
 
