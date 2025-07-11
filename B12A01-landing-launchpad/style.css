@@ -151,7 +151,7 @@ span{
   align-items: center;
   margin: 137px 0px 137px 0px;
 
-   /* background-color: aqua; */
+   
   
 
    
@@ -222,30 +222,9 @@ img{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .card-date{
     color: #B3B3B3;
 }
-
-
 
 
 
@@ -266,30 +245,13 @@ img{
 
 
 
-
 .login-des{
     font-weight: bold;
     font-size: 97px;
     
 
 }
-/* .login-form{
-    width: 497px;
-     
-}
-label {
-    padding-bottom: 10px;
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-.input{
-    height: 70px;
-    width: 497px;
-   
-    
-    
-} */
+
 
 
 .login{
